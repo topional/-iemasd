@@ -4,6 +4,9 @@
     padding: 0;
     font-family: arial;
 }
+.favicon{
+    background-image: url("images/logo1.png");
+}
 .navbar{
     background-color: #E50A17;
     color: #ffffff;
@@ -351,4 +354,5 @@ h3 {
 }
 a {
     background-color: transparent;
+
 }
