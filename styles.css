@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.navbar{
+    background-color: #E50A17;
+    color: #ffffff;
+    min-height: 3.4em;
+    border-bottom: 4px solid #D7B0B0;
+    display: block;
+    unicode-bidi: isolate;
+}
+.navbar__logo{
+    background-image: url("images/upc-white.png");
+    width: 15em;
+    float: left;
+    height: 3.4em;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 0.2em;
+    
+}
+#side-menu{
+    background-color: #F7F7F7;
+    border-bottom-color: #EEEEEF;
+    border-bottom: 2px solid #EEEEEF;
+    padding-left: 1%;
+    height: 100%;
+    clear: both;
+    min-height: 2.6em;
+    position: relative;
+}
+.side-menu{
+    font-size: 16px ;
+    font-family: arial;
+}
+#side-menu-header{
+    position: relative;
+    top: 50%;
+    transform: translateY(20%);
+}
+.alumno_button, .inscripcion_button{
+    font-size: 1.2em;
+    color: #3A3939;
+    
+    
+}
+a.alumno_button, a.inscripcion_button{
+    text-decoration: underline;
+}
+.separator{
+    content: '';
+    background: url(images/breadcrumb-separator.svg) no-repeat center;
+    width: 0.5em;
+    height: 0.5em;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.custom{
+    top: 99px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    clear: both;
+}
+#title-panel{
+    background-color: #F7F7F7;
+    border-bottom-color: #EEEEEF;
+}
+
+#title-panel{
+    color: #656565;
+}
+#title-panel{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#title-panel{
+        border-bottom: 2px solid #EEEEEF;
+        padding-left: 1%;
+}
+#title-panel {
+    height: 5.25%;
+    min-height: 2.8em;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+#title-panel h1 {
+    color: #151618;
+}
+#title-panel h1 {
+    display: inline-block;
+    margin: 0;
+}
+#title-panel > h1 {
+    font-size: 1.2em;
+}
+#title-panel h1 {
+    padding-top: 10px;
+}
+#title-panel h1 {
+    font-weight: 500;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.3em;
+    color: #151618;
+}
+h1{
+    display: block;
+    font-size: 1.3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+@media (min-width: 768px) {
+    #content.ui-layout-container, main#content {
+        top: 147px !important;
+}
+}
+#content{
+    overflow-x: auto;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#content {
+    font: 10px Arial, Helvetica, sans-serif;
+}
+.ui-widget-content{
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+.ui-widget-content {
+    border-style: none;
+}
+.ui-widget-content {
+    border: 1px solid #cccccc;
+    background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+    color: #333333;
+}
+.body-content {
+    background-color: #AFBCC9;
+}
+.body-content {
+    background-color: #afbcc9;
+    padding: 0;
+    margin: 0;
+    position : absolute;
+}
+.body-content {
+    background-color: #AFBCC9;
+}
+.body-content {
+    background-color: #afbcc9;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    bottom: 1em;
+    left: 1em;
+    z-index: 98;
+}
+#landing-paths {
+    overflow-y: auto;
+}
+.body-content>div {
+    padding: 1em;
+    border-radius: .6em;
+    -moz-border-radius: .6em;
+    -webkit-border-radius: .6em;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    bottom: 1em;
+    left: 1em;
+}
+.inverse-title {
+    color: #FFFFFF;
+    background-color: #8E9AA3;
+}
+.inverse-title {
+    color: #fff;
+    background-color: #8E9AA3;
+    border-radius: .5em;
+    -moz-border-radius: .4em;
+    -webkit-border-radius: .4em;
+    min-height: 30px;
+}
+.body-content-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: .5em 1em;
+    
+    
+    
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+h1.title, h2.title, h3.title {
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    display: inline-block;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    
+}
+
+#landingPathMenu {
+    padding: 0;
+    margin: 0;
+    min-height: 400px;
+}
+#preRegLink{
+    background-image: url(images/icon-lrg-prepare.png);
+}
+#registerLink{
+    background-image: url(images/icon-lrg-my-registration.png);
+}
+ul {
+    list-style-type: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.landing-path {
+    border-bottom-color: #CCCCCC;
+}
+.landing-path {
+    padding-top: 2em;
+    border-bottom: 1px dotted #ccc;
+    font-size: 1.2em;
+    float: left;
+    width: 40%;
+    min-width: 240px;
+    margin: 0 15px 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+#landingPathMenu a {
+    text-decoration: none;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-left: 75px;
+    height: 4em;
+    background-size: 57px 57px;
+}
+.landing-path a {
+    font-size: 1.2em;
+    color: #2c2c6e;
+}
+
+
+.ui-widget-content a {
+    color: #333333;
+}
+.ui-widget-content a {
+    color: #151618;
+}
+.landing-path a {
+    font-size: 1.2em;
+    color: #2c2c6e;
+}
+.ui-widget-content a {
+    color: #151618;
+}
+.ui-widget-content a {
+    color: #333333;
+}
+a {
+    color: #3A3939;
+}
+a {
+    color: #333333;
+}
+a {
+    color: #fb9da3;
+}
+a {
+    background-color: transparent;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+h6.sub-link, h3.sub-link {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+a {
+    background-color: transparent;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upc</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="webkit webkit537">
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo" class="navbar__logo"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    
+    <nav class="side-menu" id="side-menu">
+        <div id="side-menu-header">
+            <a class="alumno_button" href="\">Alumno</a>
+            <span class="separator"></span>
+            <a class="inscripcion_button" href="\">Inscripción</a>
+            
+        </div>
+    </nav>
+    <main id="content" style="top: 100px;margin-bottom:0px">
+        <div class="custom">
+            <div id="title-panel"class="header-title"> 
+                <h1>Inscripción</h1>
+            </div>
+        </div>
+        <div class="ui-layout-center inner-center ui-widget-content" id="inner-center">
+            <div id="search-go-endpoint" data-endpoint="/StudentRegistration/ssb/searchResults/searchResults"></div>
+            <div class="body-wrapper">
+                <div class="body-content">
+                    <div id="landing-paths" class="ui-widget-content">
+                        <div id="select-msg" class="boyd-content-title inverse-title">
+                            <h2 class="title">¿Que desea hacer?</h2>
+                        </div>
+                        <ul id="landingPathMenu" aria-labelledby="registration-title">
+                            <li id="preRegActivities" class="landing-path landingPreRegisterActivities">
+                                <a id="preRegLink" href="#" data-endpoint="/StudentRegistrationSsb/ssb/term/termSelection?mode=preReg" data-login="/StudentRegistrationSsb/ssb/registration/registerPostSignIn?mode=preReg">
+                                    <span class="title">Prepararse para inscrpición</span>
+                                    <span class="signin-message visuallyhidden">Debe acceder para realizar actividades de preinscripción</span>
+                                    <div id="preRegActivities-desc">
+                                        <h3 class="sub-link">
+                                            "Vea el estatus de inscripción, actualice los datos del periodo del alumno y complete los requerimientos de preinscripción"
+                                        </h3>
+                                    </div>
+                                </a>
+                            </li>
+                            <li id="register" class="landing-path landinRegister">
+                                <a id="registerLink" href="#" data-endponit="StudentRegistrationSsb/ssb/term/termSelection?mode=registration" data-login="/StudentRegistrationSsb/ssb/registration/registerPostSignIn?mode=registration">
+                                    <span class="title">Inscribirse a clases</span>
+                                    <span class="signin-message visuallyhidden">Debe acceder para inscribirse a clases</span>
+                                    <div id="register-desc">
+                                        <h3 class="sub-link">Busque e inscribase a sus clases.Tambien puede ver y administrar su horario</h3>
+                                    </div>
+                                </a>
+                            </li>
+                            <li id="verCalendario" class="landing-path landingCalendar">
+                                <a id="calendarLink" href="#">
+                                    <span class="title">Proyeccion de carrera</span>
+                                    <div id="calendar-desc">
+                                        <h3 class="sub-link">Consulte requisitos para cursos y sus proyeccion de carrera</h3>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
