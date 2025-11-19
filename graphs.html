@@ -26,20 +26,49 @@
             <a class="inscripcion_button" href="\">Inscripción</a>
             <span class="separator"></span>
             <a class="inscripcion_button" href="\">Proyeccion</a>
-            
         </div>
     </nav>
+
     <main id="content" style="top: 100px;margin-bottom:0px">
         <div class="custom">
-            <div id="title-panel"class="header-title"> 
+            <div id="title-panel" class="header-title"> 
                 <h1>Seleccion carrera</h1>
             </div>
         </div>
+
         <div class="ui-layout-center inner-center ui-widget-content" id="inner-center">
             <div id="search-go-endpoint" data-endpoint="/StudentRegistration/ssb/searchResults/searchResults"></div>
             <div class="body-wrapper">
                 <div class="body-content">
                     <div id="landing-paths" class="ui-widget-content">
+
+                        
+                        <div class="career-selection-container">
+                            <h2 class="career-title">Seleccione su carrera</h2>
+
+                            <form class="career-form" method="get">
+                                <label for="careerSelect" class="career-label">Carrera:</label>
+                                <select id="careerSelect" name="career" class="career-select" required>
+                                    <option value="" disabled selected>Seleccione una carrera</option>
+                                    <option value="sistemas">Ingeniería de Sistemas</option>
+                                    <option value="industrial">Ingeniería Industrial</option>
+                                    <option value="civil">Ingeniería Civil</option>
+                                    <option value="derecho">Derecho</option>
+                                    <option value="administracion">Administración</option>
+                                </select>
+
+                                <div class="career-buttons">
+                                    <button type="submit" formaction="graphs.html" class="btn-primary">
+                                        Ver grafo
+                                    </button>
+                                    <button type="submit" formaction="courses.html" class="btn-secondary">
+                                        Ver cursos
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        
+
                         <ul id="landingPathMenu" aria-labelledby="registration-title">
                             
                         </ul>
